@@ -28,7 +28,7 @@ public class TravelAgency {
 				
 				PreparedStatement prs=cnn.prepareStatement("select * from Package_Details where pk_id=?");
 				
-			File file = new File("C://Users//Documents//Package.txt");
+			File file = new File("C://Users//vudupi//Documents//Package.txt");
 			sc = new Scanner(file);
 			while (sc.hasNextLine()) {
 
